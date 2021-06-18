@@ -1,0 +1,47 @@
+{
+  "name": "@nexapp/ts-fp",
+  "version": "0.0.0",
+  "description": "Simple functional utilities for Typescript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "deploy": "rimraf ./dist && tsc -p tsconfig.build.json && np",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gith ub.com/Nexapp/ts-fp.git"
+  },
+  "keywords": [
+    "typescript",
+    "functional",
+    "success",
+    "result",
+    "failure"
+  ],
+  "author": "Guillaume Cummings",
+  "contributors": [
+    "Sébastien Dufour-Beauséjour"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nexapp/ts-fp/issues"
+  },
+  "homepage": "https://github.com/Nexapp/ts-fp#readme",
+  "devDependencies": {
+    "@types/jest": "26.0.23",
+    "esbuild": "^0.12.9",
+    "esbuild-jest": "^0.5.0",
+    "jest": "27.0.4",
+    "rimraf": "^3.0.2",
+    "ts-jest": "27.0.3",
+    "typescript": "^3.7.3"
+  },
+  "peerDependencies": {
+    "typescript": "^3.7.3"
+  },
+  "files": [
+    "dist/**/*"
+  ]
+}
