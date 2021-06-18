@@ -1,12 +1,12 @@
 {
   "name": "@nexapp/ts-fp",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Simple functional utilities for Typescript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "deploy": "rimraf ./dist && tsc -p tsconfig.build.json && np",
+    "deploy": "rimraf ./dist && tsc -p tsconfig.build.json && np --no-2fa",
     "test": "jest"
   },
   "repository": {
