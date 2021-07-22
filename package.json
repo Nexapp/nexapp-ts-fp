@@ -39,7 +39,7 @@
     "typescript": "^3.7.3"
   },
   "peerDependencies": {
-    "typescript": "^3.7.3"
+    "typescript": "^3.7.3 || 4"
   },
   "files": [
     "dist/**/*"
